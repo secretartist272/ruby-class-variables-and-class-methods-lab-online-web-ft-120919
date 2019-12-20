@@ -17,12 +17,10 @@ class Song
   
   def self.count
     @@count
-    binding.pry
   end
   
   def self.artist
-    @@artist.uniq 
-    binding.pry
+    @@artist.uniq
   end
   
   def self.genres
